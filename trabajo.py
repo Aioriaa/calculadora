@@ -1,10 +1,3 @@
-def operaciones(numeros):
-     numero = int(input("Escribe un numero: "))
-     numero2 = int(input("Escribe un numero: "))
-     operacion = 
-     print("el resultado es " + str(operacion)) 
-
-
 
 menu = """
 Bienvenidos a la calculadora
@@ -17,12 +10,24 @@ Elige una opcion porfavor: """
 opcion = int(input(menu))
 
 if opcion == 1:
-    operaciones()
+    número = int(input("Esciba un nimero: "))
+    numero2 = int(input("Esciba un numero: "))
+    Resultado = número + numero2 
+    print("El resultado es" +str(resultado))
 elif opcion == 2:
-   operaciones() 
+    número = int(input("Esciba un nimero: "))
+    numero2 = int(input("Esciba un numero: "))
+    Resultado = número - numero2 
+    print("El resultado es" +str(resultado))
 elif opcion == 3:
-    operaciones()
+    número = int(input("Esciba un nimero: "))
+    numero2 = int(input("Esciba un numero: "))
+    Resultado = número × numero2 
+    print("El resultado es" +str(resultado))
 elif opcion == 4:
-    operaciones()
+    número = int(input("Esciba un nimero: "))
+    numero2 = int(input("Esciba un numero: "))
+    Resultado = número ÷ numero2 
+    print("El resultado es" +str(resultado))
 else:
     print("Eliga una opcion correcta por favor")
